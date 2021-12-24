@@ -153,11 +153,13 @@ li {
 }
 
 .main-visual-title {
-  font-size: 60px;
+  font-size: 30px;
   font-weight: bold;
   line-height: 1.2;
   margin-bottom: 5px;
   letter-spacing: .1em;
+  margin-right: 170px;
+  margin-left: 0px;
 }
 .main-visual-subtitle {
   font-size: 20px;
@@ -169,13 +171,19 @@ li {
 .main-visual-profile{
   display: flex;
   flex-wrap: wrap;
-  max-width: 800px;
-  margin: 0 auto;
+  max-width: 600px;
+  margin-left: 20%;
+  margin-bottom: 5%;
 }
 .main-visual-img {
   width: 20%;
   margin-right: 30px;
   border-radius: 50%;
+}
+.logo {
+  width: 50%;
+  margin-left: 20%;
+  max-width: 50%;
 }
 .main-visual-img img {
   border-radius: 50%;
