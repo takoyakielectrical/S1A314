@@ -13,14 +13,11 @@
             color:#fff;
             font-size: 14px;
         }
-        .sample1{animation:zigzag 2s ease 0s infinite ;}
+        .sample1{animation:zigzag 2s ease 0s 3 normal;}
         @keyframes zigzag {
             0%{transform: translate(0,0);}
-            50%{transform: translate(14px,540px);}
-            60%{transform: translate(5044px,50px);}
-            70%{transform: translate(50px,0px);}
-            80%{transform: translate(80px,5px);}
-            100%{transform: translate(1000px,10000px);}
+            50%{transform: translate(50px,50px);}
+            100%{transform: translate(100px,0px);}
         }
         .sample2{animation: scale-and-color 4s ease 0s infinite alternate;}
         @keyframes scale-and-color{
@@ -35,8 +32,8 @@
         .sample3{animation: loading 1s linear 0s infinite;}
         @keyframes loading {
             0%{transform: rotate(0deg);}
-            30%{transform: rotate(180000000000deg);}
-            100%{transform: rotate(36000000000deg);}
+            30%{transform: rotate(180deg);}
+            100%{transform: rotate(360deg);}
         }
         .sample4{animation: heart 0.8s ease 0s infinite normal;}
         @keyframes heart {
